@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "FRONTEND/compartido/css/base.css"
+        ],
+        "createdAt": "2026-11-04T15:15:16.526Z",
+        "reason": "assistant triage: el único caso es el riel de la línea de tiempo .seguimiento, no un acento de tarjeta"
+      }
+    ]
+  }
+}

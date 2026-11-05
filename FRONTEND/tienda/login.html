@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Iniciar sesión · BakeDelivery</title>
+<meta name="description" content="Entra a tu cuenta de BakeDelivery para ver tus pedidos y comprar más rápido.">
+<meta name="robots" content="noindex,follow">
+<meta name="theme-color" content="#c4122f">
+<link rel="canonical" href="%%BASE%%/login">
+<link rel="icon" href="/compartido/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/compartido/img/icono-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BakeDelivery">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Iniciar sesión · BakeDelivery">
+<meta property="og:description" content="Entra a tu cuenta de BakeDelivery para ver tus pedidos y comprar más rápido.">
+<meta property="og:url" content="%%BASE%%/login">
+<meta property="og:image" content="%%BASE%%/compartido/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pasteles y postres artesanales de BakeDelivery">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/compartido/css/base.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<bd-encabezado></bd-encabezado>
+<main id="contenido" tabindex="-1">
+<div class="contenedor seccion">
+<div class="tarjeta estrecho"><h1>Iniciar sesión</h1><form id="form" novalidate>
+<div class="campo"><label for="correo">Correo electrónico *</label><input id="correo" name="correo" type="email" autocomplete="email" required maxlength="150"><div class="error" id="err-correo" role="alert"></div></div>
+<div class="campo"><label for="password">Contraseña *</label><input id="password" name="password" type="password" autocomplete="current-password" required maxlength="100"><div class="error" id="err-password" role="alert"></div></div>
+<button class="btn btn-primario" type="submit">Entrar</button></form>
+<p class="meta"><a href="/olvide">¿Olvidaste tu contraseña?</a> · ¿Primera vez? <a href="/registro">Crea tu cuenta</a></p></div>
+</div>
+</main>
+<bd-pie></bd-pie>
+<bd-cookies></bd-cookies>
+<script type="module" src="/compartido/js/paginas/login.js"></script>
+</body>
+</html>

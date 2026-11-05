@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-04T15:38:07Z",
+  "title": "Design System: BakeDelivery",
+  "extensions": {
+    "colorMeta": {
+      "rosa": {
+        "role": "primary",
+        "displayName": "Tinta Cereza",
+        "canonical": "#c4122f",
+        "tonalRamp": [
+          "#220000",
+          "#4f000b",
+          "#860019",
+          "#bf052b",
+          "#ea434e",
+          "#fd8584",
+          "#febfbb",
+          "#ffe9e7"
+        ]
+      },
+      "rosa-osc": {
+        "role": "primary",
+        "displayName": "Cereza Profunda",
+        "canonical": "#970b22",
+        "tonalRamp": [
+          "#220001",
+          "#50000b",
+          "#84041b",
+          "#b22e38",
+          "#dc565a",
+          "#fe8483",
+          "#febebb",
+          "#ffe8e7"
+        ]
+      },
+      "rosa-claro": {
+        "role": "primary",
+        "displayName": "Cereza Lavada",
+        "canonical": "#fde4e7",
+        "tonalRamp": [
+          "#130709",
+          "#332123",
+          "#533f42",
+          "#756063",
+          "#998385",
+          "#bfa7aa",
+          "#dfcbce",
+          "#f5eced"
+        ]
+      },
+      "blush": {
+        "role": "secondary",
+        "displayName": "Blush de Mármol",
+        "canonical": "#f9d5da",
+        "tonalRamp": [
+          "#170508",
+          "#371e22",
+          "#583c41",
+          "#7b5d61",
+          "#a07f84",
+          "#c6a4a9",
+          "#e5c9cd",
+          "#f8eaec"
+        ]
+      },
+      "crema": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "#fff7f4",
+        "tonalRamp": [
+          "#0e0a09",
+          "#2b2523",
+          "#4a4341",
+          "#6b6462",
+          "#8e8785",
+          "#b4aca9",
+          "#d6cfcd",
+          "#f1eeed"
+        ]
+      },
+      "blanco": {
+        "role": "neutral",
+        "displayName": "Blanco Cálido",
+        "canonical": "#fffdfc",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#272625",
+          "#464544",
+          "#676665",
+          "#8a8988",
+          "#afadac",
+          "#d2d0d0",
+          "#efeeee"
+        ]
+      },
+      "texto": {
+        "role": "neutral",
+        "displayName": "Vino",
+        "canonical": "#3a0d14",
+        "tonalRamp": [
+          "#1e0004",
+          "#42151b",
+          "#653438",
+          "#8a5559",
+          "#b0787b",
+          "#d79c9f",
+          "#f3c3c5",
+          "#ffe8e9"
+        ]
+      },
+      "suave": {
+        "role": "neutral",
+        "displayName": "Vino Suave",
+        "canonical": "#6e3a42",
+        "tonalRamp": [
+          "#1e0005",
+          "#43141d",
+          "#66333b",
+          "#8b545c",
+          "#b1777e",
+          "#d89ba2",
+          "#f4c2c8",
+          "#ffe8ea"
+        ]
+      },
+      "borde": {
+        "role": "neutral",
+        "displayName": "Borde Rosado",
+        "canonical": "#f1c4cb",
+        "tonalRamp": [
+          "#190308",
+          "#3b1b22",
+          "#5d3940",
+          "#815a60",
+          "#a67c83",
+          "#cca1a8",
+          "#eac6cc",
+          "#fbe9ec"
+        ]
+      },
+      "linea": {
+        "role": "neutral",
+        "displayName": "Línea de Campo",
+        "canonical": "#b7636f",
+        "tonalRamp": [
+          "#210004",
+          "#4e0018",
+          "#732636",
+          "#9a4956",
+          "#c16c78",
+          "#ea919c",
+          "#febdc4",
+          "#ffe8ea"
+        ]
+      },
+      "ok": {
+        "role": "state",
+        "displayName": "Hecho",
+        "canonical": "#1f6237",
+        "tonalRamp": [
+          "#001102",
+          "#003013",
+          "#0a5329",
+          "#357649",
+          "#599a6c",
+          "#7ec08f",
+          "#ace0b9",
+          "#ddf6e3"
+        ]
+      },
+      "error": {
+        "role": "state",
+        "displayName": "Error",
+        "canonical": "#8f0a1e",
+        "tonalRamp": [
+          "#220000",
+          "#500009",
+          "#84041a",
+          "#b03338",
+          "#d95a5a",
+          "#fe8482",
+          "#febebb",
+          "#ffe8e7"
+        ]
+      },
+      "aviso": {
+        "role": "state",
+        "displayName": "Pendiente",
+        "canonical": "#754a00",
+        "tonalRamp": [
+          "#170600",
+          "#392000",
+          "#613c00",
+          "#885c1c",
+          "#ad7f43",
+          "#d4a468",
+          "#f1c99b",
+          "#feebd5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "marca-pie": {
+        "displayName": "Marca del pie",
+        "purpose": "Cierre de la tienda; única excepción sobre 6rem."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Ocasiones de la portada."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "H1 de página."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "H2 de sección."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "H3 y nombre del diseño."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Botones."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Etiquetas e insignias."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sombra",
+        "value": "0 16px 28px -14px rgba(58, 13, 20, .42)",
+        "purpose": "Fotos, toasts, aviso de cookies y hover de tarjetas enlazadas."
+      },
+      {
+        "name": "sombra-suave",
+        "value": "0 8px 18px -12px rgba(58, 13, 20, .3)",
+        "purpose": "Tarjetas, etiqueta de fecha y hover del botón primario."
+      },
+      {
+        "name": "pliego",
+        "value": "drop-shadow(0 -7px 9px rgba(58, 13, 20, .2))",
+        "purpose": "Filtro del papel que tapa la foto de portada."
+      },
+      {
+        "name": "dialogo",
+        "value": "0 20px 60px rgba(58, 13, 20, .35)",
+        "purpose": "Diálogos del panel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "salida",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Curva de entrada de fotos, giros y desplazamientos."
+      },
+      {
+        "name": "foto-sale",
+        "value": ".8s",
+        "purpose": "La foto sale del papel al cambiar de ocasión."
+      },
+      {
+        "name": "foto-endereza",
+        "value": ".5s",
+        "purpose": "La foto del diseño se endereza al apuntarla."
+      },
+      {
+        "name": "ocasion-avanza",
+        "value": ".45s",
+        "purpose": "La ocasión apuntada avanza 12px."
+      },
+      {
+        "name": "estado",
+        "value": ".2s",
+        "purpose": "Color y fondo de botones."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "telefono-chico",
+        "value": "460px"
+      },
+      {
+        "name": "cookies",
+        "value": "560px"
+      },
+      {
+        "name": "tablet",
+        "value": "860px"
+      },
+      {
+        "name": "menu",
+        "value": "900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón primario",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acción principal de la pantalla; rojo sólido.",
+      "html": "<button class=\"ds-btn ds-btn-pri\">Confirmar pedido</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 11px 22px; border: 1.5px solid transparent; border-radius: var(--radio); font: 700 1rem var(--sans); cursor: pointer; text-decoration: none; transition: background .2s, color .2s, box-shadow .3s var(--salida); } .ds-btn:focus-visible { outline: 2.5px solid var(--texto); outline-offset: 2px; } .ds-btn-pri { background: var(--rosa); color: #fff; } .ds-btn-pri:hover { background: var(--rosa-osc); box-shadow: var(--sombra-suave); }"
+    },
+    {
+      "name": "Botón secundario",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Acción no principal; a línea.",
+      "html": "<button class=\"ds-btn ds-btn-sec\">Cuéntanos tu idea</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 11px 22px; border: 1.5px solid transparent; border-radius: var(--radio); font: 700 1rem var(--sans); cursor: pointer; text-decoration: none; transition: background .2s, color .2s, box-shadow .3s var(--salida); } .ds-btn:focus-visible { outline: 2.5px solid var(--texto); outline-offset: 2px; } .ds-btn-sec { background: transparent; border-color: var(--rosa); color: var(--rosa); } .ds-btn-sec:hover { background: var(--rosa-claro); color: var(--rosa-osc); }"
+    },
+    {
+      "name": "Botón de peligro",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Acción destructiva; a línea, nunca rellena.",
+      "html": "<button class=\"ds-btn ds-btn-pel\">Eliminar</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 11px 22px; border: 1.5px solid transparent; border-radius: var(--radio); font: 700 1rem var(--sans); cursor: pointer; text-decoration: none; transition: background .2s, color .2s, box-shadow .3s var(--salida); } .ds-btn:focus-visible { outline: 2.5px solid var(--texto); outline-offset: 2px; } .ds-btn-pel { background: transparent; border-color: var(--error); color: var(--error); } .ds-btn-pel:hover { background: var(--rosa-claro); }"
+    },
+    {
+      "name": "Aviso de cookies",
+      "kind": "custom",
+      "description": "Dos opciones con el mismo botón secundario: aceptar y rechazar pesan igual.",
+      "html": "<div class=\"ds-cookies\"><h2 class=\"ds-cookies-t\">Tu privacidad importa</h2><p class=\"ds-cookies-p\">Usamos una cookie de sesión necesaria. Si aceptas, también usamos analítica anónima.</p><div class=\"ds-cookies-a\"><button class=\"ds-btn ds-btn-sec\">Aceptar analítica</button><button class=\"ds-btn ds-btn-sec\">Solo necesarias</button></div></div>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 11px 22px; border: 1.5px solid transparent; border-radius: var(--radio); font: 700 1rem var(--sans); cursor: pointer; text-decoration: none; transition: background .2s, color .2s, box-shadow .3s var(--salida); } .ds-btn:focus-visible { outline: 2.5px solid var(--texto); outline-offset: 2px; } .ds-btn-sec { background: transparent; border-color: var(--rosa); color: var(--rosa); } .ds-btn-sec:hover { background: var(--rosa-claro); color: var(--rosa-osc); } .ds-cookies { max-width: 620px; padding: 18px 20px; background: var(--blanco); border: 1.5px solid var(--rosa); border-radius: var(--radio); box-shadow: var(--sombra); } .ds-cookies-t { margin: 0 0 .5em; font: 400 1.5rem/1.08 var(--serif); color: var(--rosa); } .ds-cookies-p { margin: 0; font: 400 .96rem/1.55 var(--sans); color: var(--texto); } .ds-cookies-a { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }"
+    },
+    {
+      "name": "Campo",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Campo de formulario de 46px con etiqueta en negrita.",
+      "html": "<div class=\"ds-campo\"><label class=\"ds-campo-l\" for=\"ds-nombre\">Mensaje en el pastel</label><input class=\"ds-campo-i\" id=\"ds-nombre\" placeholder=\"Feliz cumpleaños\"></div>",
+      "css": ".ds-campo-l { display: block; margin-bottom: 4px; font: 700 1rem var(--sans); color: var(--texto); } .ds-campo-i { width: 100%; height: 46px; padding: 11px 14px; border: 1.5px solid var(--linea); border-radius: var(--radio); background: var(--blanco); color: var(--texto); font: 400 17px/1.55 var(--sans); caret-color: var(--rosa); } .ds-campo-i::placeholder { color: var(--suave); } .ds-campo-i:focus { outline: 2px solid var(--rosa); outline-offset: 0; border-color: var(--rosa); }"
+    },
+    {
+      "name": "Navegación",
+      "kind": "nav",
+      "description": "Enlaces con subrayado para hover y página actual; el carrito es el único con caja.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Ejemplo\"><a href=\"#\" aria-current=\"page\">Diseños</a><a href=\"#\">Ofertas</a><a href=\"#\">Contacto</a><a class=\"ds-nav-c\" href=\"#\">Carrito <b>0</b></a></nav>",
+      "css": ".ds-nav { display: flex; gap: 2px; align-items: center; flex-wrap: wrap; } .ds-nav a { padding: 8px 11px; color: var(--texto); font: 600 .98rem var(--sans); text-decoration: none; } .ds-nav a:hover { color: var(--rosa); text-decoration: underline; text-underline-offset: 6px; } .ds-nav a[aria-current=\"page\"] { color: var(--rosa); text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 2px; } .ds-nav .ds-nav-c { margin-left: 8px; border: 1.5px solid var(--rosa); border-radius: var(--radio); color: var(--rosa); } .ds-nav .ds-nav-c:hover { background: var(--rosa); color: #fff; text-decoration: none; } .ds-nav a:focus-visible { outline: 2.5px solid var(--texto); outline-offset: 2px; }"
+    },
+    {
+      "name": "Pestañas",
+      "kind": "custom",
+      "refersTo": "tab-selected",
+      "description": "La seleccionada se rellena de rojo: es lo activo.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Ejemplo\"><button role=\"tab\" aria-selected=\"true\">Datos</button><button role=\"tab\" aria-selected=\"false\">Direcciones</button></div>",
+      "css": ".ds-tabs { display: flex; gap: 6px; flex-wrap: wrap; border-bottom: 1.5px solid var(--rosa); } .ds-tabs button { padding: 10px 16px; border: 0; background: none; color: var(--suave); font: 600 1rem var(--sans); cursor: pointer; } .ds-tabs button:hover { color: var(--rosa); } .ds-tabs button[aria-selected=\"true\"] { background: var(--rosa); color: #fff; } .ds-tabs button:focus-visible { outline: 2.5px solid var(--texto); outline-offset: 2px; }"
+    },
+    {
+      "name": "Diseño con fecha",
+      "kind": "card",
+      "refersTo": "date-tag",
+      "description": "Foto suelta y girada, sin tarjeta, con la etiqueta de primera fecha de entrega.",
+      "html": "<article class=\"ds-dis\"><div class=\"ds-dis-f\"><span class=\"ds-dis-img\" role=\"img\" aria-label=\"Espacio para la foto del pastel\"></span><span class=\"ds-fecha\">Desde jue 5 de nov.</span></div><h3 class=\"ds-dis-n\"><a href=\"#\">Pastel de ositos</a></h3><span class=\"ds-dis-p\">$650.00</span></article>",
+      "css": ".ds-dis { position: relative; max-width: 260px; } .ds-dis-f { position: relative; rotate: -.8deg; transition: rotate .5s var(--salida), translate .5s var(--salida); } .ds-dis:hover .ds-dis-f, .ds-dis:focus-within .ds-dis-f { rotate: 0deg; translate: 0 -5px; } .ds-dis-img { display: block; aspect-ratio: 4 / 5; background: var(--rosa-claro); box-shadow: var(--sombra); } .ds-fecha { position: absolute; right: -6px; bottom: 14px; padding: 5px 12px; background: var(--crema); color: var(--rosa); border: 1.5px solid var(--rosa); font: 700 .84rem var(--sans); rotate: -2deg; box-shadow: var(--sombra-suave); } .ds-dis-n { margin: 16px 0 2px; font: 700 1.14rem/1.3 var(--sans); } .ds-dis-n a { color: var(--texto); text-decoration: none; } .ds-dis-n a:hover { color: var(--rosa); } .ds-dis-p { font: 800 1.2rem var(--sans); font-variant-numeric: tabular-nums; color: var(--texto); }"
+    },
+    {
+      "name": "Enlace de ocasión",
+      "kind": "custom",
+      "description": "Ocasión enorme en Shrikhand; es la acción principal de la portada.",
+      "html": "<a class=\"ds-ocasion\" href=\"#\">Cumpleaños <small>4 diseños</small></a>",
+      "css": ".ds-ocasion { display: flex; align-items: baseline; gap: 14px; white-space: nowrap; color: var(--texto); font: 400 clamp(2.3rem, 5.2vw, 5.2rem)/1.12 var(--serif); text-decoration: none; transition: color .15s, translate .45s var(--salida); } .ds-ocasion small { color: var(--suave); font: 600 .95rem var(--sans); } .ds-ocasion:hover, .ds-ocasion:focus-visible { color: var(--rosa); translate: 12px 0; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Papel de seda en línea roja",
+    "overview": "La tienda es lo que se ve al abrir la caja: papel de seda dibujado a una tinta roja, con el pastel real encima. El papel cubre la página con cupcakes, frascos, corazones, flechas, mangas y rebanadas a línea; las fotos se apoyan sobre él sin marco, un poco giradas, como puestas a mano. Rechaza el hero partido con botón y la fila de tarjetas iguales.\n\nHay dos densidades sobre la misma base. La tienda que vende (inicio, catálogo, producto) es grande, suelta y fotográfica. Lo operativo (carrito, checkout, cuenta, formularios y panel) hereda los mismos tokens, pero se ordena en superficies claras con borde fino, tablas y campos de 46px. El panel admin se queda sin papel de fondo: ahí se trabaja, no se antoja.",
+    "keyCharacteristics": [
+      "Una sola tinta decorativa: todo dibujo y toda línea salen del mismo rojo cereza.",
+      "Foto real, cuadrada de esquinas y levemente girada, siempre por encima de la interfaz.",
+      "Shrikhand para lo que se dice en voz alta, Figtree para todo lo que se opera.",
+      "Relleno rojo escaso: señala qué hacer y qué está activo.",
+      "Esquinas casi rectas (3px) y línea de 1.5px, como corte y trazo sobre papel."
+    ],
+    "rules": [
+      {
+        "name": "La Regla del Rojo Sólido",
+        "body": "El relleno rojo sólido marca la acción principal y lo activo o elegido, y nada más: botón primario, pestaña seleccionada, entrada actual del menú del panel, paso cumplido del seguimiento. Si un elemento no es lo que hay que pulsar ni lo que está activo, va a línea. La etiqueta de descuento, la insignia de error y las barras de la gráfica hoy van rellenas: son desviaciones del build, no precedente.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla de la Tinta Única",
+        "body": "Los dibujos existen en una sola tinta (#c4122f), a trazo y sin relleno. En el papel va al 17% de opacidad con trazo de 2.4; en línea dentro de una frase, al 100% con trazo de 2.6. Ninguna ilustración introduce un segundo color.",
+        "section": "colors"
+      },
+      {
+        "name": "La Regla de las 6rem",
+        "body": "Ningún texto pasa de 6rem. La única excepción es la marca del pie, que cierra la página a todo lo ancho; las ocasiones, lo más grande después de ella, se detienen en 5.2rem.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla del Peso Único",
+        "body": "Shrikhand solo existe en 400 y `font-synthesis: none` impide simular negritas. El énfasis se da con tamaño o color, nunca con peso. Dentro del panel, los h2 pasan a Figtree 800.",
+        "section": "typography"
+      },
+      {
+        "name": "La Regla de la Frase Limpia",
+        "body": "Una frase larga en Shrikhand va sobre Papel liso, sin el mosaico de dibujos debajo. El texto corto de la portada y las secciones sí puede vivir sobre el papel dibujado.",
+        "section": "layout"
+      },
+      {
+        "name": "La Regla de la Foto Puesta",
+        "body": "En las pantallas de venta, la foto no lleva marco, borde ni esquina redondeada: se sostiene con la sombra y un giro de entre 0.6° y 3°. Al apuntarla se endereza y sube 5px.",
+        "section": "elevation"
+      },
+      {
+        "name": "La Regla del Peso Igual",
+        "body": "\"Aceptar analítica\" y \"Solo necesarias\" llevan el mismo botón secundario. Aceptar y rechazar pesan lo mismo; ninguna opción se viste de acción principal. Bajo 560px se reparten la fila a partes iguales.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do poner la foto real como el elemento más fuerte de cada pantalla de venta, sin marco y girada entre 0.6° y 3°.",
+      "Do reservar el relleno rojo sólido para la acción principal y lo activo o elegido.",
+      "Do dar el mismo botón secundario a las dos opciones del aviso de cookies.",
+      "Do mantener todo el texto por debajo de 6rem, salvo la marca del pie.",
+      "Do usar `var(--rosa)` y demás tokens: el panel puede sobrescribir `--rosa` y `--crema` desde su configuración.",
+      "Do dibujar ilustraciones nuevas a línea, sin relleno, en #c4122f y con trazo redondeado.",
+      "Do decir la fecha real de entrega junto a la foto o al pedido.",
+      "Do resolver el movimiento con `--salida` y anularlo con `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "Don't resolver la portada con un hero partido y su botón, ni los diseños con una fila de tarjetas iguales.",
+      "Don't enmarcar, redondear ni meter en una tarjeta con borde las fotos de producto.",
+      "Don't usar el rojo sólido para decorar, para promociones ni para resaltar lo que no se pulsa ni está activo.",
+      "Don't convertir \"Aceptar analítica\" en botón primario.",
+      "Don't aplicar negritas a Shrikhand ni usarla en párrafos, precios o etiquetas de campo.",
+      "Don't añadir un segundo color de tinta a dibujos o papel.",
+      "Don't colocar una frase larga en Shrikhand sobre el papel dibujado.",
+      "Don't usar sombras duras sin desenfoque.",
+      "Don't escribir estilos en línea: la CSP los bloquea."
+    ]
+  }
+}

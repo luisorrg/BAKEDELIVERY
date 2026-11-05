@@ -1,0 +1,20 @@
+{
+  "name": "bakedelivery-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend unificado de BakeDelivery (repostería en línea)",
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "secretos": "node scripts/secretos.js",
+    "db:crear": "node scripts/crear-bd.js",
+    "seed": "node scripts/seed.js",
+    "demo": "node scripts/demo.js",
+    "test": "node --no-warnings --test tests/*.test.js",
+    "verificar:secretos": "node scripts/verificar-secretos.js"
+  },
+  "dependencies": { "mysql2": "^3.11.0" },
+  "optionalDependencies": { "nodemailer": "^6.9.0" }
+}

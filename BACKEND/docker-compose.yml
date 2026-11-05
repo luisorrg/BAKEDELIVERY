@@ -1,0 +1,16 @@
+# MySQL local para desarrollo. Las contraseñas vienen del .env (npm run secretos).
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?define DB_ROOT_PASSWORD en .env}
+      MYSQL_DATABASE: ${DB_NAME:-bd02}
+      MYSQL_USER: ${DB_USER:-bake}
+      MYSQL_PASSWORD: ${DB_PASSWORD:?define DB_PASSWORD en .env}
+    ports: ["127.0.0.1:3306:3306"]
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ../DATABASE/bd02_reposteria.sql:/docker-entrypoint-initdb.d/01-bd02.sql:ro
+volumes:
+  dbdata:

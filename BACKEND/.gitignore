@@ -1,0 +1,5 @@
+.env
+node_modules/
+storage/bandeja/*
+!storage/bandeja/.gitkeep
+*.log

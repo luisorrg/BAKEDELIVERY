@@ -1,0 +1,18 @@
+/* Panel del vendedor: reutiliza base.css */
+body.admin { background-image: none; display: grid; grid-template-columns: 240px 1fr; grid-template-rows: auto 1fr; min-height: 100vh; }
+.admin-barra { grid-column: 1 / -1; background: var(--texto); color: #fff; display: flex; align-items: center; gap: 14px; padding: 10px 20px; }
+.admin-barra a { color: var(--blush); } .admin-barra .marca { color: #fff; font-size: 1.3rem; } .admin-barra .marca img { width: 30px; height: 30px; } .admin-barra .espacio { margin-left: auto; }
+.admin-menu { background: var(--blanco); border-right: 1px solid var(--borde); padding: 16px 10px; }
+.admin-menu a { display: flex; justify-content: space-between; gap: 8px; padding: 10px 14px; border-radius: var(--radio); text-decoration: none; color: var(--texto); font-weight: 500; }
+.admin-menu a:hover { background: var(--rosa-claro); color: var(--rosa-osc); } .admin-menu a[aria-current="page"] { background: var(--rosa); color: #fff; }
+.admin-menu .num { background: var(--blanco); color: var(--rosa-osc); border: 1px solid currentColor; border-radius: var(--radio); padding: 0 8px; font-size: .8rem; }
+.admin-contenido { padding: 24px; min-width: 0; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 24px; }
+.kpi { background: var(--blanco); border: 1px solid var(--borde); border-radius: var(--radio); padding: 16px; } .kpi b { display: block; font-size: 1.8rem; font-weight: 800; font-variant-numeric: tabular-nums; } .kpi span { color: var(--suave); font-size: .9rem; }
+.barra-acciones { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; } .barra-acciones h1 { margin: 0 auto 0 0; font-size: 1.6rem; }
+dialog { border: 0; border-radius: var(--radio); padding: 24px; width: min(560px, 94vw); box-shadow: 0 20px 60px rgba(58, 13, 20, .35); background: var(--crema); color: var(--texto); } dialog::backdrop { background: rgba(58, 13, 20, .5); }
+.celda-acciones { white-space: nowrap; display: flex; gap: 6px; }
+.grafica { display: grid; gap: 6px; } .grafica .fila-g { display: grid; grid-template-columns: 90px 1fr 90px; gap: 8px; align-items: center; font-size: .9rem; } .grafica .barra { height: 16px; border-radius: var(--radio); background: var(--rosa); min-width: 2px; }
+@media (max-width: 860px) { body.admin { grid-template-columns: 1fr; } .admin-menu { display: flex; overflow-x: auto; border-right: 0; border-bottom: 1px solid var(--borde); padding: 8px; } .admin-menu a { white-space: nowrap; } }
+.admin-barra .btn-secundario { color: var(--blush); border-color: var(--blush); } .admin-barra .btn-secundario:hover { background: var(--blush); color: var(--texto); }
+.admin-contenido h1 { font-size: 1.8rem; } .admin-contenido h2 { font: 800 1.2rem/1.3 var(--sans); color: var(--texto); }

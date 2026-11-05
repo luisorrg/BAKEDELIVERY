@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crear cuenta · BakeDelivery</title>
+<meta name="description" content="Crea tu cuenta de BakeDelivery para guardar direcciones, pedir y dar seguimiento a tus pasteles.">
+<meta name="robots" content="noindex,follow">
+<meta name="theme-color" content="#c4122f">
+<link rel="canonical" href="%%BASE%%/registro">
+<link rel="icon" href="/compartido/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/compartido/img/icono-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BakeDelivery">
+<meta property="og:locale" content="es_MX">
+<meta property="og:title" content="Crear cuenta · BakeDelivery">
+<meta property="og:description" content="Crea tu cuenta de BakeDelivery para guardar direcciones, pedir y dar seguimiento a tus pasteles.">
+<meta property="og:url" content="%%BASE%%/registro">
+<meta property="og:image" content="%%BASE%%/compartido/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pasteles y postres artesanales de BakeDelivery">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/compartido/css/base.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<bd-encabezado></bd-encabezado>
+<main id="contenido" tabindex="-1">
+<div class="contenedor seccion">
+<div class="tarjeta estrecho"><h1>Crear cuenta</h1><form id="form" novalidate>
+<div class="campo"><label for="nombre">Nombre completo *</label><input id="nombre" name="nombre" autocomplete="name" required minlength="2" maxlength="100"><div class="error" id="err-nombre" role="alert"></div></div>
+<div class="campo"><label for="correo">Correo electrónico *</label><input id="correo" name="correo" type="email" autocomplete="email" required maxlength="150"><div class="error" id="err-correo" role="alert"></div></div>
+<div class="campo"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" autocomplete="tel" maxlength="20"><div class="error" id="err-telefono" role="alert"></div></div>
+<div class="campo"><label for="password">Contraseña *</label><input id="password" name="password" type="password" autocomplete="new-password" required minlength="10" maxlength="100"><div class="ayuda">Mínimo 10 caracteres, con letras y números.</div><div class="error" id="err-password" role="alert"></div></div>
+<bd-desafio></bd-desafio>
+<div class="campo casilla"><input id="acepta_privacidad" name="acepta_privacidad" type="checkbox" value="1" required><label for="acepta_privacidad">Leí el <a href="/privacidad" target="_blank" rel="noopener">aviso de privacidad</a> y acepto los <a href="/terminos" target="_blank" rel="noopener">términos y condiciones</a>.</label></div><div class="error" id="err-acepta_privacidad" role="alert"></div>
+<button class="btn btn-primario" type="submit">Crear mi cuenta</button></form><p class="meta">¿Ya tienes cuenta? <a href="/login">Inicia sesión</a></p></div>
+</div>
+</main>
+<bd-pie></bd-pie>
+<bd-cookies></bd-cookies>
+<script type="module" src="/compartido/js/paginas/registro.js"></script>
+</body>
+</html>
